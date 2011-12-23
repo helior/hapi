@@ -16,11 +16,19 @@ function hapi_profile_details() {
  */
 function hapi_profile_modules() {
   return array(
+    // Core
     'block',
     'filter',
     'node',
     'system',
     'user',
+    
+    // Contrib
+    'api',
+    'autoload',
+    'ctools',
+    'grammar_parser',
+    'job_queue',
   );
 }
 
