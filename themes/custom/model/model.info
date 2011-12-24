@@ -1,0 +1,6 @@
+name = Model
+description = Fictitious base theme.
+engine = phptemplate
+core = 6.x
+
+stylesheets[all][] = css/model.css
