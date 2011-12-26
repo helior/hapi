@@ -1,0 +1,59 @@
+body, ul, ol, h1, h2, h3, h4, h5, h6, form, li, p, input, select, legend, textarea, fieldset {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background:#F8F8F8;
+  color:#777;
+  font-family: Arial,Helevtica,Verdana,san-serif;
+  font-size: 13px;
+  line-height: 23px;
+}
+
+h1, h2, h3, h4, h5, h6, legend, .sliderheading {
+    font-family: "Trebuchet MS",Tahoma,Helvetica;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    line-height: 1.4em;
+    padding-bottom: 5px;
+    position: relative;
+}
+h1 {
+    clear: both;
+    font-size: 34px;
+    font-weight: normal;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+h2 {
+    clear: both;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.entry h2 {
+    font-size: 28px;
+}
+h3, legend {
+    clear: both;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+h4 {
+    clear: both;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+h5 {
+    clear: both;
+    font-size: 13px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+h6 {
+    clear: both;
+    font-size: 12px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}

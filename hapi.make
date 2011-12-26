@@ -42,6 +42,12 @@ projects[jquery_update][version] = 2.0-alpha1
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 1.0
 
+projects[panels][subdir] = contrib
+projects[panels][version] = 3.9
+
+projects[panels_everywhere][subdir] = contrib
+projects[panels_everywhere][version] = 1.1
+
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.1
 

@@ -1,0 +1,11 @@
+.handsome .content,
+.handsome .sidebar-left {
+  width:50%;
+  padding:0;
+  margin:0;
+}
+.handsome .sidebar-left,
+.handsome .sidebar-left > .inner,
+.handsome .sidebar-left > .inner > .deep {
+  background-image:none;
+}

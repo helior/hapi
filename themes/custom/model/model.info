@@ -4,5 +4,7 @@ engine = phptemplate
 core = 6.x
 
 stylesheets[all][] = css/skeleton.css
-stylesheets[all][] = css/hp5b.css
+stylesheets[all][] = css/h5bp.css
 stylesheets[all][] = css/model.css
+
+plugins[panels][layouts] = plugins/layouts

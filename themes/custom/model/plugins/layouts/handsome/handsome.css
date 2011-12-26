@@ -1,0 +1,22 @@
+.handsome .main {
+  overflow:hidden;
+}
+.handsome .content {
+  float:right;
+}
+.handsome .content > .inner {
+  padding-left:35px;
+}
+.handsome .sidebar-left {
+  float:left;
+  background:url(images/sidebar-left-top.png) right 0 no-repeat;
+  padding-top:60px;
+}
+.handsome .sidebar-left > .inner {
+  background:url(images/sidebar-left-bottom.png) right bottom no-repeat;
+  padding-bottom: 60px;
+}
+.handsome .sidebar-left > .inner > .deep {
+  background:url(images/sidebar-left.png) right 0 repeat-y;
+  padding-right:35px;
+}
