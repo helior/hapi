@@ -9,14 +9,29 @@
 }
 .handsome .sidebar-left {
   float:left;
-  background:url(images/sidebar-left-top.png) right 0 no-repeat;
-  padding-top:60px;
+  background:url(images/sidebar-left.png) right repeat-y;
+  position:relative;
 }
 .handsome .sidebar-left > .inner {
-  background:url(images/sidebar-left-bottom.png) right bottom no-repeat;
-  padding-bottom: 60px;
+  padding:20px 35px 40px 0;
 }
-.handsome .sidebar-left > .inner > .deep {
-  background:url(images/sidebar-left.png) right 0 repeat-y;
-  padding-right:35px;
+.handsome .sidebar-left .sidebar-top,
+.handsome .sidebar-left .sidebar-bottom {
+  display: block;
+  height: 70px;
+  width:100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+
+.handsome .sidebar-left .sidebar-top {background:url(images/sidebar-left-top.png) right top no-repeat;}
+.handsome .sidebar-left .sidebar-bottom {background:url(images/sidebar-left-bottom.png) right bottom no-repeat; bottom:0; top:auto;}
+
+
+.handsome .sidebar-left div {
+  position:relative;
+  z-index:2;
 }

@@ -14,10 +14,10 @@
 
       <?php if ($content['left']): ?>
       <div class="sidebar-left four columns">
+        <span class="sidebar-top"></span>
+        <span class="sidebar-bottom"></span>
         <div class="inner">
-          <div class="deep">
-            <?php print $content['left']; ?>
-          </div>
+          <?php print $content['left']; ?>
         </div>
       </div>
       <?php endif; ?>
