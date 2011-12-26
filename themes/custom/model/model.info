@@ -3,4 +3,6 @@ description = Fictitious base theme.
 engine = phptemplate
 core = 6.x
 
+stylesheets[all][] = css/skeleton.css
+stylesheets[all][] = css/hp5b.css
 stylesheets[all][] = css/model.css
