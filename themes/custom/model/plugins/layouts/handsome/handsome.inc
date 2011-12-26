@@ -9,8 +9,10 @@ $plugin = array(
   'icon' => 'images/handsome.png',
   'category' => t('Model'),
   'panels' => array(
+    'top' => t('Top'),
     'left' => t('Left'),
     'content' => t('Content'),
+    'bottom' => t('Bottom'),
   ),
 );
 

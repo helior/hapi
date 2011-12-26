@@ -1,6 +1,12 @@
 <div class="handsome">
   <div class="container">
     
+    <?php if ($content['top']): ?>
+    <div class="top">
+      <?php print $content['top']; ?>
+    </div>
+    <?php endif; ?>
+    
     <?php if ($content['left'] || $content['content']): ?>
     <div class="main">
 
@@ -24,5 +30,12 @@
 
     </div>
     <?php endif; ?>
+    
+    <?php if ($content['bottom']): ?>
+    <div class="bottom">
+      <?php print $content['bottom']; ?>
+    </div>
+    <?php endif; ?>
+    
   </div>
 </div>

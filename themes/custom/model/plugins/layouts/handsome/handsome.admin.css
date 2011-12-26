@@ -5,7 +5,7 @@
   margin:0;
 }
 .handsome .sidebar-left,
-.handsome .sidebar-left > .inner,
-.handsome .sidebar-left > .inner > .deep {
+.handsome .sidebar-left .sidebar-top,
+.handsome .sidebar-left .sidebar-bottom {
   background-image:none;
 }
